@@ -5,7 +5,7 @@ import { OrbitControls, useTexture } from "@react-three/drei";
 import "./styles.css";
 
 function Plane(props) {
-  const [ref] = usePlane(() => ({ rotation: [-Math.PI / 2, 0, 0], ...props }));
+  const [ref] = usePlane(() => ({ rotation: [-Math.PI / 2.6, 0, 0], ...props }));
   const planeTexture = useTexture("Textures/diffusePlane.png");
   return (
     <mesh ref={ref} receiveShadow>
