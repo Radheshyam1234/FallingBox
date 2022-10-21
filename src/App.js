@@ -40,11 +40,10 @@ export default function App() {
 
       <Physics>
         <Plane />
-        <Cube position={[-1, 5, 0]} />
-        <Cube position={[1, 10, -1]} />
-        <Cube position={[-1, 12, -1.5]} />
-        <Cube position={[-1.5, 15, 1.5]} />
-        <Cube position={[0, 19, -1.5]} />
+         <Cube position={[0, 5, 0]} />
+        <Cube position={[0.25, 7, 0]} />
+        <Cube position={[-1, 8, 0.25]} />
+        <Cube position={[-0.5, 10, -0.25]} />
         {/* <Cube  /> */}
       </Physics>
     </Canvas>
